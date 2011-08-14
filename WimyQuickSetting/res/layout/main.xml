@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/statusAutoRotate"
+      android:text="Auto Rotate status"
+      style="@style/status_style"
+       >
+    </TextView>
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnAutoRotate"
+      android:text="Auto Rotate Button"
+
+      >
+    </Button>
+   
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/statusWifi"
+      android:text="Wifi status"
+      style="@style/status_style"
+       >
+    </TextView>
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnWifi"
+      android:text="Wifi Button"
+
+      >
+    </Button>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/statusGPS"
+      android:text="GPS status"
+      style="@style/status_style"
+       >
+    </TextView>
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/btnGPS"
+      android:text="GPS Button"
+
+      >
+    </Button>
+
+    <Button android:text="Attach notification again" android:id="@+id/btnReAttach" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+    <Button android:text="Flash" android:id="@+id/btnFlash" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+</ScrollView>
